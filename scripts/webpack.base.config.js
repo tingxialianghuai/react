@@ -26,7 +26,7 @@ const webpackConfigBase = {
     //   resolve('app'),
     //   resolve('node_modules'),
     // ],
-    alias: { // 减少使用别名提高编译速速
+    alias: { // 减少使用别名提高编译速度
       '@app': path.join(__dirname, '../app'),
       '@actions': path.join(__dirname, '../app/redux/actions'),
       '@reducers': path.join(__dirname, '../app/redux/reducers'),
